@@ -1,11 +1,17 @@
 body {
-  background-color: green;
+  background-color: linen;
 }
 
 .wrapper {
+  border: 1px solid lightgray;
+  background: white;
   width: 400px;
-  background-color: red;
   margin: 0 auto;
+}
+
+.todoDone {
+  text-decoration: line-through;
+  color: lightgray;
 }
 
 .material-icons.md-18 {
