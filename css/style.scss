@@ -1,12 +1,54 @@
 body {
-    background-color: linen;
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    background-color: #f0141e;
+    color: white;
+    margin: 0;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    font-size: 18px;
+    background-color: #E6E6E6;
+}
+
+input:focus {
+    outline: none;
+    background-color: white;
+    border: 3px solid #f0141e;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+    color: #404040;
+}
+
+li:nth-child(2n) {
+    background-color: #F3F3F3;
 }
 
 .wrapper {
-    border: 1px solid lightgray;
     background: white;
-    width: 400px;
-    margin: 0 auto;
+    width: 600px;
+    margin: 100px auto;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
 .todoDone {
