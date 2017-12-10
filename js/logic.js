@@ -13,6 +13,10 @@ $("input[type='text']").keypress(function(e){
     if (e.which === 13) {
         var newTodoText = $(this).val();
         $(this).val("");
-        $("ul").append("<li><span>x</span> " + newTodoText +"</li>");
+        $("ul").append("<li><span><i class='material-icons'>delete_forever</i></span> " + newTodoText +"</li>");
     }
+});
+
+$(".toggleInput").click(function(){
+    $("input[type='text']").fadeToggle();
 });
